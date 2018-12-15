@@ -1,0 +1,121 @@
+ant> new 5 5 RL
+ant> ant 2 2
+ant> print
+00000
+00000
+00<00
+00000
+00000
+ant> unant
+ant> print
+00000
+00000
+00000
+00000
+00000
+ant> step 
+0
+ant> step 14
+0
+ant> ant 3 3
+ant> step
+1
+ant> step 14
+15
+ant> print
+00000
+00000
+101v0
+10111
+00011
+ant> new 5 5 RLLLLRRL
+ant> ant 2 2
+ant> step 100
+100
+ant> print
+23322
+361<2
+31701
+15752
+11121
+ant> step -100
+100
+ant> print
+00000
+00000
+00<00
+00000
+00000
+ant> resize 3 3
+ant> print
+000
+0<0
+000
+ant> resize 1 3
+ant> print
+0
+<
+0
+ant> resize 1 1
+ant> print
+<
+ant> new 4 4 RLRLRLRLRLRL
+ant> step 50
+0
+ant> ant 2 2
+ant> print
+0000
+0000
+00<0
+0000
+ant> step 50
+50
+ant> print
+1111
+337<
+3388
+1111
+ant> step 5000
+5050
+ant> print
+9999
+3<40
+3960
+9AA9
+ant> step 20000
+25050
+ant> print
+6666
+6>45
+6655
+6666
+ant> n 4 4 RL
+ant> a 2 2
+ant> step 10
+10
+ant> print
+0000
+011>
+0110
+0011
+ant> step -8
+2
+ant> print
+0000
+0>00
+0110
+0000
+ant> step -2
+0
+ant> step 10000
+10000
+ant> step -82
+9918
+ant> step -9918
+0
+ant> print
+0000
+0000
+00<0
+0000
+ant> quit
